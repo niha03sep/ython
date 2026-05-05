@@ -1,0 +1,37 @@
+country = "india"
+class ace:
+    col = "ACE COLLEGE"
+
+    def give_details(self, a, b, c, d):
+        self.tot = a + b + c
+        self.name = d
+    def display(self):
+        print("1.name:", self.name)
+        print("2.total:", self.tot)
+        print("3.college:", ace.col)
+        print("4.Country:", country)
+
+class bvrit:
+    col = "BVRIT WOMEN"
+    def give_details(self, a, b, c, d):
+        self.tot = a + b + c
+        self.name = d
+    def display(self):
+        print("1.name:", self.name)
+        print("2.total:", self.tot)
+        print("3.college:", bvrit.col)
+        print("4.Country:", country)
+
+
+a = ace()
+a2 = ace()
+b = bvrit()
+b2 = bvrit()
+a.give_details(20, 40, 60, "Sravanthi")
+a2.give_details(10, 20, 30, "Niharika")
+b.give_details(15, 25, 35, "Chinnu")
+b2.give_details(35, 45, 55, "Laddu")
+a.display()
+a2.display()
+b.display()
+b2.display()
